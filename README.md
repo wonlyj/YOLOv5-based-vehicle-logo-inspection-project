@@ -1,7 +1,8 @@
 # YOLOv5-based-vehicle-logo-inspection-project
-
+## 这是一个基于YOLOv5的车标识别项目，是我大三时期的“目标检测”实训提交的最终项目成果
 
 1、项目效果<br>
+<img width="519" alt="屏幕截图 2025-01-02 003841" src="https://github.com/user-attachments/assets/72b70076-fcc4-41ff-92c0-06064f931cea" /><br>
 （1）运用LabelImg图像标注工具，给项目所需的数据集进行数据标签标注：① Open Dir：指定要标注的图像所在的目录；② Change Save Dir：指定标注数据保存的目录；③ Change Save Format：选定YOLO作为指定标签的保存格式。<br>
 （2）使用Yolov5制作并训练自己的数据集，得到车标识别模型。<br>
 （3）threading模块创建和管理线程，创建一个线程来监听键盘事件，实现了程序的并发执行。<br>
